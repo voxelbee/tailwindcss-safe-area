@@ -186,19 +186,19 @@ const safeArea = plugin(({ addUtilities, matchUtilities, theme }) => {
         ".min-h-screen-safe": {
             'min-height': [
                 "calc(100vh - (env(safe-area-inset-top) + env(safe-area-inset-bottom)))",
-                "-webkit-fill-available",
+                // "-webkit-fill-available",
             ],
         },
         ".max-h-screen-safe": {
             'max-height': [
                 "calc(100vh - (env(safe-area-inset-top) + env(safe-area-inset-bottom)))",
-                "-webkit-fill-available",
+                // "-webkit-fill-available",
             ],
         },
         ".h-screen-safe": {
             'height': [
                 "calc(100vh - (env(safe-area-inset-top) + env(safe-area-inset-bottom)))",
-                "-webkit-fill-available",
+                // "-webkit-fill-available",
             ],
         },
     };
